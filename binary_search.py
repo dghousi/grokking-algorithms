@@ -13,6 +13,7 @@ def binary_search(list, item):
     return None
 
 # Test the function
-my_list = [1,2,3,4,5,6,7,8,9,10]
-print(binary_search(my_list, 5))  # Should print the index of 5
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+my_list = list(range(1, 128))
+print(binary_search(my_list, 127))  # Should print the index of 5
 print(binary_search(my_list, -1))  # Should print None
