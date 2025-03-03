@@ -9,6 +9,8 @@ def quicksort(array):
 
         return quicksort(less) + [pivot] + quicksort(greater)
 
+print(quicksort([]))
+print(quicksort([10]))
 print(quicksort([10,5,2,3]))
 print(quicksort([1,5,2,3]))
 print(quicksort([7800,45,450,78,456,988,12,10,56,1]))
