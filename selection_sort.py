@@ -5,7 +5,6 @@ def findSmallest(arr):
         if arr[i] < smallest:
             smallest = arr[i]
             smallest_index = i
-        return smallest_index
+    return smallest_index
     
-
-print(findSmallest([5,3,6,2,10]))
+print(findSmallest([55,37,61,27,110]))
