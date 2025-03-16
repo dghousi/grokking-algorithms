@@ -4,7 +4,17 @@ from collections import deque
 
 def bfs_shortest_path(graph, start, finish):
     queue = deque([(start, [start])])
+    # This line initializes a queue using deque (a double-ended queue from the collections module).
+    # It starts the queue with a tuple containing the start node and a list that tracks the path
+    # taken to reach that node (initially just the start node itself).
+    # The purpose of this queue is to store nodes to be explored, along with the paths
+    # leading to them.
+
     visited = set()
+    # This line initializes an empty set called visited.
+    # The visited set is used to keep track of the nodes that have already been explored.
+    # By marking nodes as visited, the algorithm avoids processing the same node multiple times, 
+    # which helps prevent infinite loops and reduces unnecessary computations.
 
     while queue:
         vertex, path = queue.popleft()
