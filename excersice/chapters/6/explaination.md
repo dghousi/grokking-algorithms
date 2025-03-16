@@ -8,15 +8,15 @@
 
 1. **`queue = deque([(start, [start])])`**:
 
-- This line initializes a queue using `deque` (a double-ended queue from the `collections` module).
-- It starts the queue with a tuple containing the start node and a list that tracks the path taken to reach that node (initially just the start node itself).
-- The purpose of this queue is to store nodes to be explored, along with the paths leading to them.
+   - This line initializes a queue using `deque` (a double-ended queue from the `collections` module).
+   - It starts the queue with a tuple containing the start node and a list that tracks the path taken to reach that node (initially just the start node itself).
+   - The purpose of this queue is to store nodes to be explored, along with the paths leading to them.
 
 2. **`visited = set()`**:
 
-- This line initializes an empty set called `visited`.
-- The `visited` set is used to keep track of the nodes that have already been explored.
-- By marking nodes as visited, the algorithm avoids processing the same node multiple times, which helps prevent infinite loops and reduces unnecessary computations.
+   - This line initializes an empty set called `visited`.
+   - The `visited` set is used to keep track of the nodes that have already been explored.
+   - By marking nodes as visited, the algorithm avoids processing the same node multiple times, which helps prevent infinite loops and reduces unnecessary computations.
 
 These two commands are essential for implementing the breadth-first search algorithm effectively. The queue allows for exploring nodes level by level, while the visited set ensures each node is processed only once.
 
