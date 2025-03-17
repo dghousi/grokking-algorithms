@@ -1,5 +1,5 @@
-# grokking-algorithms
+# Grokking Algorithms
 
-![bigO(Times)](<./assets/bigO(times).png>)
+![Big O Notation](<./assets/bigO(times).png>)
 <br>
 ![Breadth First Search](./assets/bfs-search.png)
