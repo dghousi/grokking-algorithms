@@ -60,4 +60,4 @@ This block of code effectively explores each node in the graph, tracks the path 
 
 <br>
 
-![Breadth First Search](./../../../assets/bfs-search.png)
+![Breadth First Search](./../../../assets/bfs_search.png)
