@@ -1,5 +1,8 @@
 ## Problem Statement
-    A farmer wants to farm their land with the maximum area where good land is present. The "land" is represented as a matrix with `1`s and `0`s, where `1` means good land and `0` means bad land. The farmer only wants to farm in a square of good land with the maximum area. Please help the farmer to find the maximum area of the land they can farm in good land.
+    A farmer wants to farm their land with the maximum area where good land is present.
+    The "land" is represented as a matrix with `1`s and `0`s, where `1` means good land and `0` means bad land. 
+    The farmer only wants to farm in a square of good land with the maximum area. 
+    Please help the farmer to find the maximum area of the land they can farm in good land.
 
 ### Example:
 
