@@ -14,4 +14,4 @@ def printnames(start_dir):
             else: 
                 search_queue.append(fullpath)
         
-printnames("../grokking-algorithms")
+printnames("../grokking-algorithms/assets")
